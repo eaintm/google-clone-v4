@@ -4,7 +4,7 @@ import "./globals.css";
 export default function RootLayout({ children }) {
   return (
     <html>
-      <body>{children}
+      <body className="relative min-h-screen">{children}
       {/*Footer*/}
       <Footer />
       </body>
